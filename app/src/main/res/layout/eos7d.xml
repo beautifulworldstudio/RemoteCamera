@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/linearLayout1"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical" >
+
+  <LinearLayout android:id="@+id/upperpanel"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+ 
+  <Button
+   android:id="@+id/quitbutton"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="@string/quit" />
+
+  <Button
+   android:id="@+id/shutterbutton"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="shutter" />
+
+  <Button
+   android:id="@+id/LVoff"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="LV off" />
+
+   <Button
+   android:id="@+id/StartInterval"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="Start" />
+  
+   <Button
+   android:id="@+id/StopInterval"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="Stop" />
+
+    <Button
+    android:id="@+id/IntervalMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/IntervalValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <Button
+    android:id="@+id/IntervalPlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+ 
+   <TextView
+   android:id="@+id/state"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+  </LinearLayout> 
+ 
+  <LinearLayout
+   android:id="@+id/lowerpanel"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <LinearLayout
+   android:id="@+id/parameterpanel"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical">
+       
+   <LinearLayout
+   android:id="@+id/SSField"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/SSMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/SSValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+   
+   <Button
+    android:id="@+id/SSPlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+  </LinearLayout>
+
+  <LinearLayout
+   android:id="@+id/ApertureField"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/ApertureMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/ApertureValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+   
+   <Button
+    android:id="@+id/AperturePlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+  </LinearLayout>
+
+  <LinearLayout
+   android:id="@+id/ISOField"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/ISOMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/ISOValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <Button
+    android:id="@+id/ISOPlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+  </LinearLayout>
+ 
+  <LinearLayout
+   android:id="@+id/DriveModeField"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/DriveModeMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/DriveModeValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <Button
+    android:id="@+id/DriveModePlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+  </LinearLayout>
+
+  <LinearLayout
+   android:id="@+id/MeteringModeField"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/MeteringModeMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/MeteringModeValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <Button
+    android:id="@+id/MeteringModePlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+  </LinearLayout>
+
+  <LinearLayout
+   android:id="@+id/AFModeField"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/AFModeMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/AFModeValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <Button
+    android:id="@+id/AFModePlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+  </LinearLayout>
+
+  <LinearLayout
+   android:id="@+id/WhiteBalanceField"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/WhiteBalanceMinus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-" />
+
+   <TextView
+    android:id="@+id/WhiteBalanceValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <Button
+    android:id="@+id/WhiteBalancePlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+" />
+  </LinearLayout>
+  
+    <LinearLayout
+   android:id="@+id/LVConsole"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" >
+
+   <Button
+    android:id="@+id/LVStart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Movie Start" />
+
+   <Button
+    android:id="@+id/LVStop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Movie Stop" />
+
+   <Button
+    android:id="@+id/LVExit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Exit LV" />
+   
+    </LinearLayout>
+   </LinearLayout>
+  </LinearLayout>
+ </LinearLayout>

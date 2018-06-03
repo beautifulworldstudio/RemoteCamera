@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <usb-device vendor-id="1193" product-id="12778" /> <!--EOS Rebel T2i = Kiss X4 -->
+    <usb-device vendor-id="1193" product-id="12697" /> <!--EOS 5D mark2-->
+    <usb-device vendor-id="1193" product-id="12698" /> <!-- EOS 7D -->
+    <usb-device vendor-id="1193" product-id="12880" /> <!-- EOS 6D -->
+</resources>

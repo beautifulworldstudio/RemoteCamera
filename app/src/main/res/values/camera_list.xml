@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <integer-array name="productid">
+    <item>0x3199</item><!-- 5D2 -->
+    <item>0x319a</item>
+    <item>0x3250</item><!--  6D -->
+    <item>0x31ea</item><!-- kissX4 RebelT2i -->
+    <item>0x3215</item><!-- 60D -->
+  </integer-array>
+  
+  <string-array name="connecterclass">
+   <item>beautifulworld.jp.utility.camera.EOS5D2Connecter</item>
+   <item>beautifulworld.jp.utility.camera.eos7d.Connecter7D</item>
+   <item>beautifulworld.jp.utility.camera.eos7d.Connecter7D</item>
+   <item>beautifulworld.jp.utility.camera.FoundationConnecter</item>
+   <item>beautifulworld.jp.utility.camera.FoundationConnecter</item>
+  </string-array>
+</resources>
